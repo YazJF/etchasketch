@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    background-color: grey;
+}
+
+body {
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.board {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    width: 688px;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    align-items: center;
+    gap: 2em;
+}
+
+button {
+    background-color: white;
+    height: 35px;
+    width: 75px;
+}
+
+/* .newdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+} */
